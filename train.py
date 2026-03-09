@@ -33,6 +33,10 @@ if __name__ == '__main__':
         last_episode_id = checkpoint['episode_id']
         REWARDS = checkpoint['REWARDS']
         
+        # Safely check if the optimizer memory exists before loading it
+        if 'optimizer_state_dict' in checkpoint:
+            net.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        
     for episode_id in range(last_episode_id, max_m_episode):
 
         # training loop
@@ -68,5 +72,6 @@ if __name__ == '__main__':
 
             torch.save({'episode_id': episode_id,
                         'REWARDS': REWARDS,
-                        'model_G_state_dict': net.state_dict()},
+                        'model_G_state_dict': net.state_dict(),
+                        'optimizer_state_dict': net.optimizer.state_dict()}, # THE NEW LINE
                        os.path.join(ckpt_folder, 'ckpt_' + str(episode_id).zfill(8) + '.pt'))
