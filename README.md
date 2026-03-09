@@ -4,6 +4,9 @@ This project is a modernized and improved version of the open-source rocket recy
 
 The original, highly recommended repository can be found here: [jiupinjia/rocket-recycling](https://github.com/jiupinjia/rocket-recycling)
 
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/0354880a-c8f3-4f8d-876b-b19e87882e69" />
+
+
 ## 🏆 Attribution & Citation
 Full credit for the foundational 2D physics engine, base environment (`rocket.py`), and the original neural network architecture goes to Zhengxia Zou. 
 
@@ -14,7 +17,7 @@ Full credit for the foundational 2D physics engine, base environment (`rocket.py
   year = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/jiupinjia/rocket-recycling](https://github.com/jiupinjia/rocket-recycling)}}
+  howpublished = {\url{https://github.com/jiupinjia/rocket-recycling}}
 }
 ```
 ## 🛠️ Modifications & Modernization
