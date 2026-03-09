@@ -14,7 +14,7 @@ Full credit for the foundational 2D physics engine, base environment (`rocket.py
   year = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/jiupinjia/rocket-recycling](https://github.com/jiupinjia/rocket-recycling)}}
+  howpublished = {\url{https://github.com/jiupinjia/rocket-recycling}}
 }
 ```
 ## 🛠️ Modifications & Modernization
